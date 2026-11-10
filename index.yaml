@@ -1,0 +1,454 @@
+apiVersion: v1
+entries:
+  mongodb:
+  - annotations:
+      category: Database
+      images: |
+        - name: kubectl
+          image: docker.io/bitnamilegacy/kubectl:1.29.1-debian-11-r3
+        - name: mongodb-exporter
+          image: docker.io/bitnamilegacy/mongodb-exporter:0.40.0-debian-11-r6
+        - name: mongodb
+          image: docker.io/bitnamilegacy/mongodb:7.0.5-debian-11-r6
+        - name: nginx
+          image: docker.io/bitnamilegacy/nginx:1.25.3-debian-11-r7
+        - name: os-shell
+          image: docker.io/bitnamilegacy/os-shell:11-debian-11-r96
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 7.0.5
+    created: "2026-11-07T14:29:14.382105+05:30"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: MongoDB(R) is a relational open source NoSQL database. Easy to use,
+      it stores data in JSON-like documents. Automated scalability and high-performance.
+      Ideal for developing cloud native applications.
+    digest: 8c441e06be560e4269086befa19f842d4a4fdd73e806014df578873c767a61da
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    - cluster
+    - replicaset
+    - replication
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: mongodb
+    sources:
+    - https://4ankush.github.io/atmosly-mongo-helm-chart/mongodb-14.10.0.tgz
+    urls:
+    - https://4ankush.github.io/atmosly-mongo-helm-chart/mongodb-14.10.9.tgz
+    version: 14.10.9
+  - annotations:
+      category: Database
+      images: |
+        - name: kubectl
+          image: docker.io/bitnamilegacy/kubectl:1.29.1-debian-11-r3
+        - name: mongodb-exporter
+          image: docker.io/bitnamilegacy/mongodb-exporter:0.40.0-debian-11-r6
+        - name: mongodb
+          image: docker.io/bitnamilegacy/mongodb:7.0.5-debian-11-r6
+        - name: nginx
+          image: docker.io/bitnamilegacy/nginx:1.25.3-debian-11-r7
+        - name: os-shell
+          image: docker.io/bitnamilegacy/os-shell:11-debian-11-r96
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 7.0.5
+    created: "2025-09-18T17:18:36.879686785+05:30"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: MongoDB(R) is a relational open source NoSQL database. Easy to use,
+      it stores data in JSON-like documents. Automated scalability and high-performance.
+      Ideal for developing cloud native applications.
+    digest: e8d781f637ca4e873c34fc812809ddf041c698ed7f49f0c7de2d4d75a84d69b5
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    - cluster
+    - replicaset
+    - replication
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: mongodb
+    sources:
+    - https://4ankush.github.io/atmosly-mongo-helm-chart/mongodb-14.10.0.tgz
+    urls:
+    - https://4ankush.github.io/atmosly-mongo-helm-chart/mongodb-14.10.8.tgz
+    version: 14.10.8
+  - annotations:
+      category: Database
+      images: |
+        - name: kubectl
+          image: docker.io/bitnami/kubectl:1.29.1-debian-11-r3
+        - name: mongodb-exporter
+          image: docker.io/bitnami/mongodb-exporter:0.40.0-debian-11-r6
+        - name: mongodb
+          image: docker.io/bitnami/mongodb:7.0.5-debian-11-r6
+        - name: nginx
+          image: docker.io/bitnami/nginx:1.25.3-debian-11-r7
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:11-debian-11-r96
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 7.0.5
+    created: "2025-09-18T17:18:36.865805483+05:30"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: MongoDB(R) is a relational open source NoSQL database. Easy to use,
+      it stores data in JSON-like documents. Automated scalability and high-performance.
+      Ideal for developing cloud native applications.
+    digest: be664caea988e77ef5a1531217da31fbec15fb24f201224d8bf24a20b7db733c
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    - cluster
+    - replicaset
+    - replication
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: mongodb
+    sources:
+    - https://4ankush.github.io/atmosly-mongo-helm-chart/mongodb-14.10.0.tgz
+    urls:
+    - https://4ankush.github.io/atmosly-mongo-helm-chart/mongodb-14.10.7.tgz
+    version: 14.10.7
+  - annotations:
+      category: Database
+      images: |
+        - name: kubectl
+          image: docker.io/bitnami/kubectl:1.29.1-debian-11-r3
+        - name: mongodb-exporter
+          image: docker.io/bitnami/mongodb-exporter:0.40.0-debian-11-r6
+        - name: mongodb
+          image: docker.io/bitnami/mongodb:7.0.5-debian-11-r6
+        - name: nginx
+          image: docker.io/bitnami/nginx:1.25.3-debian-11-r7
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:11-debian-11-r96
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 7.0.5
+    created: "2025-09-18T17:18:36.853368622+05:30"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: MongoDB(R) is a relational open source NoSQL database. Easy to use,
+      it stores data in JSON-like documents. Automated scalability and high-performance.
+      Ideal for developing cloud native applications.
+    digest: 02539f2d452afa0d9ed867b38042b9463958974decaf7439e52ed6d9c4f4b6a7
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    - cluster
+    - replicaset
+    - replication
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: mongodb
+    sources:
+    - https://4ankush.github.io/atmosly-mongo-helm-chart/mongodb-14.10.0.tgz
+    urls:
+    - https://4ankush.github.io/atmosly-mongo-helm-chart/mongodb-14.10.6.tgz
+    version: 14.10.6
+  - annotations:
+      category: Database
+      images: |
+        - name: kubectl
+          image: docker.io/bitnami/kubectl:1.29.1-debian-11-r3
+        - name: mongodb-exporter
+          image: docker.io/bitnami/mongodb-exporter:0.40.0-debian-11-r6
+        - name: mongodb
+          image: docker.io/bitnami/mongodb:7.0.5-debian-11-r6
+        - name: nginx
+          image: docker.io/bitnami/nginx:1.25.3-debian-11-r7
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:11-debian-11-r96
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 7.0.5
+    created: "2025-09-18T17:18:36.839650943+05:30"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: MongoDB(R) is a relational open source NoSQL database. Easy to use,
+      it stores data in JSON-like documents. Automated scalability and high-performance.
+      Ideal for developing cloud native applications.
+    digest: 2fae79475c328d38a4c17b26ecc4d315e234e679b09eb674880c33d4957d1e9f
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    - cluster
+    - replicaset
+    - replication
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: mongodb
+    sources:
+    - https://4ankush.github.io/atmosly-mongo-helm-chart/mongodb-14.10.0.tgz
+    urls:
+    - https://4ankush.github.io/atmosly-mongo-helm-chart/mongodb-14.10.5.tgz
+    version: 14.10.5
+  - annotations:
+      category: Database
+      images: |
+        - name: kubectl
+          image: docker.io/bitnami/kubectl:1.29.1-debian-11-r3
+        - name: mongodb-exporter
+          image: docker.io/bitnami/mongodb-exporter:0.40.0-debian-11-r6
+        - name: mongodb
+          image: docker.io/bitnami/mongodb:7.0.5-debian-11-r6
+        - name: nginx
+          image: docker.io/bitnami/nginx:1.25.3-debian-11-r7
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:11-debian-11-r96
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 7.0.5
+    created: "2025-09-18T17:18:36.825095979+05:30"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: MongoDB(R) is a relational open source NoSQL database. Easy to use,
+      it stores data in JSON-like documents. Automated scalability and high-performance.
+      Ideal for developing cloud native applications.
+    digest: 67e3be8a3419faf261d3e105e9716e3a4d625a440c4cbb9b13d98e5555ca0663
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    - cluster
+    - replicaset
+    - replication
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: mongodb
+    sources:
+    - https://4ankush.github.io/atmosly-mongo-helm-chart/mongodb-14.10.0.tgz
+    urls:
+    - https://4ankush.github.io/atmosly-mongo-helm-chart/mongodb-14.10.4.tgz
+    version: 14.10.4
+  - annotations:
+      category: Database
+      images: |
+        - name: kubectl
+          image: docker.io/bitnami/kubectl:1.29.1-debian-11-r3
+        - name: mongodb-exporter
+          image: docker.io/bitnami/mongodb-exporter:0.40.0-debian-11-r6
+        - name: mongodb
+          image: docker.io/bitnami/mongodb:7.0.5-debian-11-r6
+        - name: nginx
+          image: docker.io/bitnami/nginx:1.25.3-debian-11-r7
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:11-debian-11-r96
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 7.0.5
+    created: "2025-09-18T17:18:36.81002573+05:30"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: MongoDB(R) is a relational open source NoSQL database. Easy to use,
+      it stores data in JSON-like documents. Automated scalability and high-performance.
+      Ideal for developing cloud native applications.
+    digest: 3f67530a52b24891480fd6bfaefb3ff15d25653a707aed11266881d93319bc2a
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    - cluster
+    - replicaset
+    - replication
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: mongodb
+    sources:
+    - https://4ankush.github.io/atmosly-mongo-helm-chart/mongodb-14.10.0.tgz
+    urls:
+    - https://4ankush.github.io/atmosly-mongo-helm-chart/mongodb-14.10.3.tgz
+    version: 14.10.3
+  - annotations:
+      category: Database
+      images: |
+        - name: kubectl
+          image: docker.io/bitnami/kubectl:1.29.1-debian-11-r3
+        - name: mongodb-exporter
+          image: docker.io/bitnami/mongodb-exporter:0.40.0-debian-11-r6
+        - name: mongodb
+          image: docker.io/bitnami/mongodb:7.0.5-debian-11-r6
+        - name: nginx
+          image: docker.io/bitnami/nginx:1.25.3-debian-11-r7
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:11-debian-11-r96
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 7.0.5
+    created: "2025-09-18T17:18:36.799168881+05:30"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: MongoDB(R) is a relational open source NoSQL database. Easy to use,
+      it stores data in JSON-like documents. Automated scalability and high-performance.
+      Ideal for developing cloud native applications.
+    digest: aae79f81b0c9142d0d69349d04ddd45e941e2aaaf1d475196603ac8e77a35bf7
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    - cluster
+    - replicaset
+    - replication
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: mongodb
+    sources:
+    - https://4ankush.github.io/atmosly-mongo-helm-chart/mongodb-14.10.0.tgz
+    urls:
+    - https://4ankush.github.io/atmosly-mongo-helm-chart/mongodb-14.10.2.tgz
+    version: 14.10.2
+  - annotations:
+      category: Database
+      images: |
+        - name: kubectl
+          image: docker.io/bitnami/kubectl:1.29.1-debian-11-r3
+        - name: mongodb-exporter
+          image: docker.io/bitnami/mongodb-exporter:0.40.0-debian-11-r6
+        - name: mongodb
+          image: docker.io/bitnami/mongodb:7.0.5-debian-11-r6
+        - name: nginx
+          image: docker.io/bitnami/nginx:1.25.3-debian-11-r7
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:11-debian-11-r96
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 7.0.5
+    created: "2025-09-18T17:18:36.651166198+05:30"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: MongoDB(R) is a relational open source NoSQL database. Easy to use,
+      it stores data in JSON-like documents. Automated scalability and high-performance.
+      Ideal for developing cloud native applications.
+    digest: 255f088b4cb021ac7bff7c28b8346fc039a9f9ef7974a6442f1a22a68ca64d48
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    - cluster
+    - replicaset
+    - replication
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: mongodb
+    sources:
+    - https://4ankush.github.io/atmosly-mongo-helm-chart/mongodb-14.10.0.tgz
+    urls:
+    - https://4ankush.github.io/atmosly-mongo-helm-chart/mongodb-14.10.1.tgz
+    version: 14.10.1
+  - annotations:
+      category: Database
+      images: |
+        - name: kubectl
+          image: docker.io/bitnami/kubectl:1.29.1-debian-11-r3
+        - name: mongodb-exporter
+          image: docker.io/bitnami/mongodb-exporter:0.40.0-debian-11-r6
+        - name: mongodb
+          image: docker.io/bitnami/mongodb:7.0.5-debian-11-r6
+        - name: nginx
+          image: docker.io/bitnami/nginx:1.25.3-debian-11-r7
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:11-debian-11-r96
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 7.0.5
+    created: "2025-09-18T17:18:36.618456457+05:30"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: MongoDB(R) is a relational open source NoSQL database. Easy to use,
+      it stores data in JSON-like documents. Automated scalability and high-performance.
+      Ideal for developing cloud native applications.
+    digest: 303033ee4f2e13b079ad5746d09481384d78282fa38686a044caab80efff4e0d
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    - cluster
+    - replicaset
+    - replication
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/mongodb
+    urls:
+    - https://4ankush.github.io/atmosly-mongo-helm-chart/mongodb-14.10.0.tgz
+    version: 14.10.0
+generated: "2026-11-07T14:29:14.382105+05:30"
